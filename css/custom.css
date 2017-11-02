@@ -1,0 +1,320 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'iranSans';
+	src: url(../font/IRANSans.woff);
+}
+* {
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+body {
+	font-family: 'iranSans';
+}
+/* header */
+header {
+	width: auto;
+	height: auto;
+	background-color: #474747;
+}
+header .btn {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	font-size: .9em;
+}
+header .login {
+	background-color: #474747;
+	color: #FFFFFF;
+}
+header .shoppingcart {
+	background-color: #ef5a88;
+	color: #FFFFFF;
+}
+header .magazine {
+	background-color: #292929;
+	color: #FFFFFF;
+}
+header .btn:hover {
+	color: #FFFFFF;
+}
+#custom-search-input {
+}
+#custom-search-input .search-query {
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 1.2em;
+	width: 200px;
+	height: 46px;
+	padding: 5px 8px;
+}
+#custom-search-input button {
+	border: 0;
+	background: none;
+	/** belows styles are working good */
+	padding: 0px 5px;
+	margin-top: 0px;
+	position: relative;
+	left: 28px;
+	top: 2px;
+	/* IE7-8 doesn't have border-radius, so don't indent the padding */
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: gray;
+}
+.search-query:focus {
+	z-index: 0 !important;
+}
+.row-intro {
+	margin-top: 20px;
+}
+.downloadApp {
+	color: gray;
+	height: 46px;
+	width: 135px;
+}
+.downloadApp:hover {
+	color: #3ec1c7;
+	background-color: #FFFFFF;
+	border-color: #3ec1c7;
+}
+.marginTop40 {
+	margin-top: 40px;
+}
+.marginTop30 {
+	margin-top: 30px;
+}
+.marinTop20 {
+	margin-top: 20px;
+}
+.marginTop10 {
+	margin-top: 10px;
+}
+.topList li {
+	font-size: 1.1em;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+/* container */
+.container {
+	width: 90%;
+}
+/* main */
+.hr-class {
+	margin-top: -15px;
+}
+.full-width {
+	width: 100%;
+}
+.slider-brands li {
+	margin-left: 4px;
+	position: relative;
+	width: 100px;
+	height: 93px;
+	border: 1px solid #ddd;
+	opacity: 0.4;
+	-moz-transition: opacity .2s ease-out;
+	transition: opacity .2s ease-out;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.slider-brands li:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+	box-shadow: 0 0 2px 0 rgba(0,0,0,.5);
+	opacity: 1;
+}
+.slider-brands img {
+	width: 80%;
+	height: auto;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+.title-text {
+	color: #606060;
+	margin-bottom: 20px;
+}
+/* Digistyle offer */
+.digi-offer .img-box {
+	width: 140px;
+	/*	height: 100px;*/
+	border: 1px solid #ddd;
+}
+.digi-offer .brand {
+	font-weight: bold;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+.digi-offer .type {
+	color: #666666;
+	margin-right: 5px;
+}
+.digi-offer .old-price {
+	margin-top: 20px;
+	text-decoration: line-through;
+	margin-right: 5px;
+}
+.digi-offer .normal-price {
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.digi-offer .line-height24 {
+	line-height: 24px;
+}
+.digi-offer .new-price {
+	color: #ef5a88;
+	margin-right: 5px;
+}
+.digi-offer figcaption {
+	text-align: right;
+}
+.digi-offer .view-all {
+	margin-right: 20px;
+	text-decoration: underline;
+}
+.ensure-box {
+	height: 230px;
+	background-color: #f5f5f5;
+	padding-left: 170px;
+	padding-right: 170px;
+}
+.ensure-title {
+	margin-top: 30px;
+	color: #5B5B5B;
+	text-align: center;
+}
+.ensure-icon {
+	color: #3ec1c7;
+	margin-left: 18px;
+	vertical-align: middle;
+}
+.ensure-subtitle {
+	color: #5B5B5B;
+	font-size: 20px;
+	line-height: 50px;
+}
+.ensure-description {
+	color: #5B5B5B;
+	line-height: 20px;
+}
+.sales-banner {
+	float: right;
+	display: block;
+}
+.banner-row-1 .side-banner {
+	width: 35%;
+}
+.banner-row-1 .middle-banner {
+	width: 28%;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.banner-row-2 .right-banner {
+	margin-left: .5%;
+	width: 49.5%;
+}
+.banner-row-2 .left-banner {
+	margin-right: .5%;
+	width: 49.5%;
+}
+.magazine-box {
+	height: 450px;
+	background-color: #f5f5f5;
+}
+.magazine-box figure {
+	margin-left: 4px;
+}
+.logo-namad {
+	padding-right: 90px;
+}
+.logo-namad img {
+	margin-top: 130px;
+	vertical-align: middle;
+}
+.logo-samandehi img {
+	margin-top: 120px;
+	vertical-align: middle;
+}
+.logo-description {
+	color: #6E6E6E;
+	font-size: 12px;
+	line-height: 27px;
+}
+.logo-title {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.logo-description-div {
+	padding-left: 80px;
+}
+/* Footer */
+.gray-footer {
+	height: 380px;
+	background-color: #f2f5f7;
+}
+.footer-unit {
+	padding: 30px;
+}
+.footer-unit hr {
+	margin-top: 40px;
+	border: 0.2px solid #9E9E9E;
+}
+.footer-list1 li {
+	line-height: 50px;
+	color: #424242;
+}
+.footer-list2 li {
+	line-height: 50px;
+	color: #424242;
+	float: right;
+}
+.footer-newsletter {
+	line-height: 30px;
+	color: #424242;
+}
+.footer-input {
+	direction: ltr;
+	height: 45px;
+	width: 70%;
+	display: inline-block;
+	background-color: #f2f5f7;
+	border: 1px solid #c0c3c4;
+	box-shadow: 0 0 0 0;
+}
+.footer-btn {
+	color: #FFFFFF;
+	height: 45px;
+	width: 29%;
+	background-color: #3ec1c7;
+	margin-right: 1%;
+	display: inline-block;
+}
+.footer-btn:hover {
+	color: #FFFFFF;
+	background-color: #3ec1c7;
+}
+.footer-unit img {
+	width: 300px;
+	display: inline-block;
+}
+footer {
+	background-color: #49484b;
+	color: #FFFFFF;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+footer h6 {
+	float: right;
+}
+footer span {
+	padding-top: 3px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
