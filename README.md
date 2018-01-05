@@ -1,2 +1,2 @@
 # digistyle
-Digistyle.com project using HTML5, CSS3, Bootstrap.
+Digistyle project using HTML5, CSS3, Bootstrap.
